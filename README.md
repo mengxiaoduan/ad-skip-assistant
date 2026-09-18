@@ -2,7 +2,7 @@
 
 一个安卓小工具：当任何应用弹出带「跳过」按钮的开屏广告时，自动帮你点掉，**点开就是主界面**。
 
-**下载安装**：https://mengxiaoduan.github.io/ad-skip-assistant/ （页面内有 APK 下载与安装教程）
+**下载安装**：https://mengxiaoduan.github.io/ad-skip-assistant/ （页面内有 APK 下载与安装教程；APK 也随 Release 发布：https://github.com/mengxiaoduan/ad-skip-assistant/releases/latest ）
 
 ## 工作原理
 

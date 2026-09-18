@@ -3,6 +3,8 @@ name: Build APK
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'apk/**'
   workflow_dispatch:
 
 permissions:
@@ -45,3 +47,13 @@ jobs:
             --title "广告跳过助手 $TAG" \
             --notes "自动构建的 APK，下载后直接安装。安装后请到系统「无障碍」设置中开启本应用的服务。" \
             --latest || gh release upload "$TAG" dist/AdSkip.apk --clobber
+
+      - name: Commit APK into repo for Pages download
+        run: |
+          mkdir -p apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk apk/AdSkip.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apk/AdSkip.apk
+          git commit -m "chore: update APK for Pages download [skip ci]"
+          git push
