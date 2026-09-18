@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">广告跳过助手</string>
+    <string name="app_slogan">点开就是主界面 · 自动帮你点「跳过」</string>
+    <string name="service_label">广告跳过助手 · 自动跳过服务</string>
+    <string name="service_desc">检测应用开屏广告上的「跳过」按钮并自动点击，让你点开就是主界面。本服务不联网、不收集任何数据，可随时关闭。</string>
+
+    <string name="status_off">○ 无障碍服务未开启</string>
+    <string name="count_zero">已自动跳过 0 次广告</string>
+    <string name="tip_working">工作中：检测到广告「跳过」按钮会自动点击</string>
+    <string name="btn_open_accessibility">前往开启无障碍服务</string>
+    <string name="btn_self_test">▶ 模拟广告 · 自测效果</string>
+
+    <string name="usage_title">使用说明</string>
+    <string name="usage_body">1. 点上方按钮，在系统列表中开启「广告跳过助手」\n2. 打开右上角开关（工作中状态）\n3. 正常使用其他应用：出现开屏广告时，会自动帮你点掉「跳过」\n4. 「模拟广告·自测」可以立刻体验自动点击的效果</string>
+    <string name="privacy_note">隐私说明：本应用不申请网络权限，不收集、不上传任何数据；所有识别都在本机完成。仅供个人设备自用。</string>
+
+    <string name="mock_ad_title">模拟开屏广告</string>
+    <string name="mock_ad_sub">这是测试页，不是真广告 · 看看会发生什么</string>
+    <string name="mock_skip_init">跳过 3</string>
+    <string name="mock_wait">什么都不用做，稍等片刻…</string>
+</resources>

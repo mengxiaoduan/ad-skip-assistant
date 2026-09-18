@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#6a5cff">
+<title>广告跳过助手 · 点开就是主界面</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(160deg, #eef0ff, #f7ecff 55%, #eefaff);
+    min-height: 100vh; color: #23263b; padding-bottom: 60px;
+  }
+  .hero { text-align: center; padding: 46px 20px 10px; }
+  .logo {
+    width: 84px; height: 84px; margin: 0 auto 18px; border-radius: 22px;
+    background: linear-gradient(135deg, #6a5cff, #a85cff);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 42px; box-shadow: 0 14px 40px rgba(106, 92, 255, .35);
+  }
+  h1 { font-size: 26px; }
+  .sub { color: #7a7e99; font-size: 14px; margin-top: 8px; line-height: 1.7; }
+  .wrap { max-width: 480px; margin: 0 auto; padding: 16px; }
+  .card {
+    background: #fff; border-radius: 18px; padding: 20px;
+    box-shadow: 0 8px 30px rgba(90, 80, 200, .10); margin-bottom: 14px;
+  }
+  .card h2 { font-size: 16px; margin-bottom: 12px; }
+  .feat { display: flex; gap: 10px; margin: 10px 0; font-size: 14px; line-height: 1.6; }
+  .feat .ic { font-size: 20px; }
+  .step { display: flex; gap: 12px; margin: 12px 0; align-items: flex-start; }
+  .num {
+    min-width: 26px; height: 26px; border-radius: 50%; color: #fff; font-size: 14px; font-weight: 700;
+    background: linear-gradient(135deg, #6a5cff, #a85cff);
+    display: flex; align-items: center; justify-content: center; margin-top: 2px;
+  }
+  .step p { font-size: 14px; line-height: 1.6; color: #44486a; }
+  .btns { text-align: center; margin: 22px 0 6px; }
+  .btn {
+    display: inline-block; border: none; border-radius: 14px; padding: 15px 34px;
+    font-size: 16px; font-weight: 700; color: #fff; cursor: pointer; text-decoration: none;
+    background: linear-gradient(90deg, #6a5cff, #a85cff);
+    box-shadow: 0 10px 26px rgba(106, 92, 255, .35);
+  }
+  .btn:active { transform: scale(.97); }
+  .alt { display: block; text-align: center; color: #7a7e99; font-size: 12px; margin-top: 12px; }
+  .alt a { color: #6a5cff; }
+  .note { font-size: 12px; color: #a5a3c4; line-height: 1.8; }
+  .warn { background: #fff7ec; border: 1px solid #ffe3b8; }
+  .warn h2 { color: #b25e00; font-size: 14px; }
+  .warn p { font-size: 12.5px; color: #8a6a3a; line-height: 1.8; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="logo">⏭️</div>
+    <h1>广告跳过助手</h1>
+    <p class="sub">手机应用的开屏广告总让你"这里跳转那里跳转"？<br>装上它：出现「跳过」按钮的瞬间自动帮你点掉，<b>点开就是主界面</b>。</p>
+  </div>
+
+  <div class="wrap">
+    <div class="btns">
+      <a class="btn" href="https://github.com/mengxiaoduan/ad-skip-assistant/releases/latest/download/AdSkip.apk">⬇️ 下载安卓安装包</a>
+      <span class="alt">或到 <a href="https://github.com/mengxiaoduan/ad-skip-assistant/releases">Releases 页面</a> 下载 · 安卓 7.0+ · 免费无广告</span>
+    </div>
+
+    <div class="card">
+      <h2>✨ 它能做什么</h2>
+      <div class="feat"><span class="ic">⚡</span><div>开屏广告出现「跳过」按钮时<b>自动点击</b>，不用再瞄着倒计时抢点</div></div>
+      <div class="feat"><span class="ic">🛡️</span><div>严格的匹配规则 + 尺寸限制，<b>只点"跳过"，不碰其他按钮</b>，避免误触跳转</div></div>
+      <div class="feat"><span class="ic">🔇</span><div>支持一键暂停；统计一共帮你跳过了多少次</div></div>
+      <div class="feat"><span class="ic">🔒</span><div><b>不申请网络权限</b>，不收集不上传任何数据，识别全部在本机完成</div></div>
+      <div class="feat"><span class="ic">🧪</span><div>内置「模拟广告自测」，安装后 10 秒验证效果</div></div>
+    </div>
+
+    <div class="card">
+      <h2>📱 安装三步走</h2>
+      <div class="step"><div class="num">1</div><p>把本页面链接发到手机（微信/QQ 均可），用浏览器打开，点上面按钮下载 APK</p></div>
+      <div class="step"><div class="num">2</div><p>安装时若提示"未知来源"，选择<b>允许/仍要安装</b>（这是应用商店之外安装的正常提示）</p></div>
+      <div class="step"><div class="num">3</div><p>打开应用 → 点「前往开启无障碍服务」→ 在系统列表里开启「广告跳过助手」，完成！</p></div>
+    </div>
+
+    <div class="card warn">
+      <h2>⚠️ 温和说明</h2>
+      <p>本工具只是替你点击广告自身提供的「跳过」按钮，不修改、不破坏任何应用；广告主仍会正常展示内容。仅供个人设备自用与学习交流，请遵守设备上各应用的用户协议。</p>
+    </div>
+
+    <p class="note" style="text-align:center">开源地址：github.com/mengxiaoduan/ad-skip-assistant · MIT License</p>
+  </div>
+</body>
+</html>

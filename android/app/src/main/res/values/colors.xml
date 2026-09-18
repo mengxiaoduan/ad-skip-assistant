@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#6A5CFF</color>
+    <color name="brand_dark">#4A3EDB</color>
+    <color name="bg">#F5F4FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ink">#23263B</color>
+    <color name="sub">#7A7E99</color>
+    <color name="ad_bg">#1B1B2F</color>
+    <color name="ok_green">#0A9C66</color>
+</resources>

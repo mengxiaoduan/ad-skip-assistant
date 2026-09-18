@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AdSkip" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryVariant">@color/brand_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/brand</item>
+        <item name="android:statusBarColor">@color/brand_dark</item>
+    </style>
+
+    <style name="Theme.AdSkip.Mock" parent="Theme.AdSkip">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
